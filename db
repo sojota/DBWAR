@@ -1,119 +1,236 @@
 {
-  "produtos": [
-    {
-      "nome": "Elfo",
-      "imagem": "https://i.imgur.com/pOdy70A.png",
-      "id": 1716157998744,
-      "avaliacoes": {
-        "5": 10,
-        "4": 4,
-        "3": 5,
-        "2": 4,
-        "1": 2
-      },
-      "comentarios": [
-        {
-          "rating": 5,
-          "comment": "Excelente produto!"
-        },
-        {
-          "rating": 4,
-          "comment": "Bom produto, poderia melhorar em alguns aspectos."
-        }
-      ]
-    },
-    {
-      "nome": "T-rex",
-      "imagem": "https://i.imgur.com/vGdoU6f.png",
-      "id": 1716158068342,
-      "avaliacoes": {
-        "5": 5,
-        "4": 3,
-        "3": 2,
-        "2": 1,
-        "1": 0
-      },
-      "comentarios": []
-    },
-    {
-      "nome": "Biscoito",
-      "imagem": "https://i.imgur.com/XJOV5cz.png",
-      "id": 1716169214778,
-      "avaliacoes": {
-        "5": 7,
-        "4": 2,
-        "3": 1,
-        "2": 0,
-        "1": 0
-      },
-      "comentarios": []
-    }
-  ],
-  "servicos": [
-    {
-      "id": 1716158623525,
-      "nome": "PetShop",
-      "imagem": "https://i.imgur.com/IKNfz4X.png",
-      "atendimentos": "Temos os mais diversos produtos e medicamentos."
-    },
-    {
-      "id": 1716169243648,
-      "imagem": "https://i.imgur.com/2GS10cY.png",
-      "nome": "Banho e tosa",
-      "atendimentos": "Ambiente separado para cães, gatos e filhotes"
-    }
-  ],
   "usuarios": [
     {
       "id": 1716161234279,
       "usuario": "admin",
-      "senha": "admin1234"
+      "senha": "123456"
     },
     {
-      "id": 1716161066494,
+      "id": 1716161234278,
       "usuario": "admin2",
-      "senha": "adm"
+      "senha": "1234"
     },
     {
-      "id": 1716161114279,
-      "usuario": "admin3",
-      "senha": "ad2"
+      "id": 1718212495452,
+      "usuario": "jota",
+      "senha": "1234"
     },
     {
-      "id": 1716166905430,
-      "usuario": "amin",
-      "senha": "aa"
-    }
-  ],
-  "health": [
-
-  ],
-  "posts": [
-
-  ],
-  "local": [
-  {
-    "id": 1716162908437,
-    "nome": "Adoção de Animais",
-    "imagem": "https://i.imgur.com/MiQLU5v.jpg",
-    "endereço": "Av contorno 851, Savassi"
-  },
-  {
-    "id": 1716838620440,
-    "imagem": "https://i.imgur.com/jNWxKyB.jpg",
-    "nome": "Adote amor",
-    "endereço": "Rua Sergipe 842, Savassi"
-  }
-  ],
-  "evento": [
+      "id": 1718212901437,
+      "usuario": "jota1",
+      "senha": "1234"
+    },
     {
-      "id": 1716452908437,
-      "nome": "Encontro de goldens da Animalle Mundo Pet",
-      "imagem": "https://i.imgur.com/3khwNB4.jpeg",
-      "descrição": "Atividades de socialização de cães e sorteio de brindes"
+      "id": 1718212938560,
+      "usuario": "jota2",
+      "senha": "1234"
+    },
+    {
+      "id": 1718840667292,
+      "usuario": "lice",
+      "senha": "112935"
+    },
+    {
+      "id": 1718845824008,
+      "usuario": "mameyzinha",
+      "senha": "024054118"
+    },
+    {
+      "id": 1718845876614,
+      "usuario": "wonwx",
+      "senha": "2801"
+    },
+    {
+      "id": 1718845951304,
+      "usuario": "willzin da massa",
+      "senha": "iuiuiu"
     }
   ],
-  "articles": [
-
+  "health": [],
+  "lobbies": [
+    {
+      "id": "1718368894622",
+      "leaderId": "admin",
+      "lobbyName": "Lobby de admin",
+      "playerSlots": [
+        "admin",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "partida": [],
+  "PARTIDAS": [
+    {
+      "IDPARTIDA": "123456789",
+      "ADMINID": "admin123",
+      "TERRITORIOS": {
+        "player1": {
+          "ID": "player1",
+          "DONO": "admin123"
+        },
+        "player2": {
+          "ID": "player2",
+          "DONO": ""
+        },
+        "player3": {
+          "ID": "player3",
+          "DONO": ""
+        },
+        "player4": {
+          "ID": "player4",
+          "DONO": ""
+        },
+        "player5": {
+          "ID": "player5",
+          "DONO": ""
+        },
+        "player6": {
+          "ID": "player6",
+          "DONO": ""
+        },
+        "player7": {
+          "ID": "player7",
+          "DONO": ""
+        },
+        "player8": {
+          "ID": "player8",
+          "DONO": ""
+        }
+      },
+      "CARTASOBJETIVO": {
+        "player1": {
+          "ID": "player1",
+          "DONO_DO_OBJETIVO": "admin123",
+          "OBJETIVO": ""
+        },
+        "player2": {
+          "ID": "player2",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player3": {
+          "ID": "player3",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player4": {
+          "ID": "player4",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player5": {
+          "ID": "player5",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player6": {
+          "ID": "player6",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player7": {
+          "ID": "player7",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        },
+        "player8": {
+          "ID": "player8",
+          "DONO_DO_OBJETIVO": "",
+          "OBJETIVO": ""
+        }
+      },
+      "CARTASDETROCA": {
+        "player1": {
+          "ID": "player1",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player2": {
+          "ID": "player2",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player3": {
+          "ID": "player3",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player4": {
+          "ID": "player4",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player5": {
+          "ID": "player5",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player6": {
+          "ID": "player6",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player7": {
+          "ID": "player7",
+          "SLOTS_DE_CARTAS": []
+        },
+        "player8": {
+          "ID": "player8",
+          "SLOTS_DE_CARTAS": []
+        }
+      },
+      "FASEATUAL": 1,
+      "TURNO": "player1",
+      "PLAYERS8": [
+        {
+          "ID": "player1",
+          "COR": "blue",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player2",
+          "COR": "red",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player3",
+          "COR": "green",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player4",
+          "COR": "yellow",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player5",
+          "COR": "orange",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player6",
+          "COR": "purple",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player7",
+          "COR": "pink",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        },
+        {
+          "ID": "player8",
+          "COR": "cyan",
+          "OBJETIVO": "",
+          "TROPAS": 0
+        }
+      ]
+    }
   ]
 }
